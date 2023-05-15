@@ -33,9 +33,9 @@ function updateQuote() {
     getQuote = quotesArr[Math.floor(Math.random() * quotesArr.length)]
 
     qouteDisplay.innerHTML = getQuote.quote
-    authorDisplay.textContent = '-' + getQuote.author
+    authorDisplay.textContent = '- ' + getQuote.author
     quoteIds.push(getQuote.ids)
-    console.log(getQuote)
+    // console.log(getQuote)
 
 }
 
