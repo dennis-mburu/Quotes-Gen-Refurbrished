@@ -1,9 +1,8 @@
 # Random Quotes Generator
 
-## Just a collection of quotes relating to programming, life humor etc
+## Just a collection of quotes 
 
-## if u want to contribute say by adding more quotes
-## YOU CAN, By creating an array with nested object using this format:
+## Quotes fetched from https://type.fit/api/quotes
 
-const quotesArray = [{ quote: [quote here] , author: [author name here]}]; Note: Ids are auto generated
-next make a Pull Request, create a new branch, and commit
+
+
