@@ -1,5 +1,5 @@
 
-quotes.sort(() => 0.5 - Math.random())
+// quotes.sort(() => 0.5 - Math.random())
 
 let qouteDisplay = document.querySelector('#quote')
 let authorDisplay = document.querySelector('#author')
@@ -40,8 +40,8 @@ function updateQuote() {
 }
 
 setInterval(() => {
-    updateQuote()
-}, 300000);
+    getSoundNQuote()
+}, 30000);
 
 
 
